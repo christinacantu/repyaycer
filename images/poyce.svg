@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="66px" viewBox="0 0 62 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feature/Feature-1" transform="translate(-251.000000, -77.000000)" stroke-width="2" stroke="#E8008A" fill="#FFFFFF">
+            <g id="Features">
+                <g id="Feature" transform="translate(173.000000, 78.000000)">
+                    <g id="Icon-1" transform="translate(79.000000, 0.000000)">
+                        <rect id="Layer-1" x="0" y="10.1682243" width="59.8130841" height="17.9439252" rx="8.97196262"></rect>
+                        <path d="M5.27227258,22.0649316 C5.81093422,18.797947 8.94004699,16.1495327 12.2473603,16.1495327 L48.0983185,16.1495327 C51.4118914,16.1495327 54.5496732,18.7903407 55.1096554,22.0649316 L58.2494178,40.4252225 C60.4759444,53.4452126 51.5636342,64 38.3647355,64 L22.2741683,64 C9.06563491,64 0.099176795,53.4397749 2.25079904,40.3901788 L5.27227258,22.0649316 Z" id="Layer-2"></path>
+                        <circle id="Layer-3" cx="25.4205607" cy="4.48598131" r="4.48598131"></circle>
+                        <circle id="Layer-4" cx="34.3925234" cy="4.48598131" r="4.48598131"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
