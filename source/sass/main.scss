@@ -11,7 +11,7 @@ body {
 .container {
   background-color: #473BB1;
 }
-
+// ****navigation****
 nav {
   display: flex;
   justify-content: space-between;
@@ -37,8 +37,12 @@ nav {
       }
     }
   }
+// ****buttons****
+  .pink-button {
+    background-color: #E8008A;
+  }
 }
-
+// ****landing page****
 .hero {
   display: flex;
   flex-direction: column;
