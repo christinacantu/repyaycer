@@ -44,11 +44,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  margin-left: 150px;
   color: #FFFFFF;
 
   h1 {
-    width: 495px;
+    max-width: 495px;  //always a max, almost never a width because responsive
     padding-bottom: 55px;
     font-size: 3.375em;  //54px
     line-height: 1.185em; //64px
@@ -61,7 +60,5 @@ nav {
 
   .social-media {
     align-self: flex-end;
-    margin-right: 160px;
-    margin-top: 200px;
   }
 }
