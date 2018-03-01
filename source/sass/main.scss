@@ -1,7 +1,7 @@
 @import 'reset';
 
 body {
-  background-color: #473BB1;
+  background-color: #473BB1; // TODO: is this the entire document color?
   font-family: SourceSansPro-Light;
   font-size: 16px;
   color: #FFFFFF;
@@ -9,9 +9,9 @@ body {
 }
 
 .container {
-  background-color: #473BB1;
+  background-color: #473BB1; // TODO: as I said in html, rethink this
 }
-  
+
 // ****navigation****
 nav {
   display: flex;
@@ -22,7 +22,7 @@ nav {
     display: inline-block;
     margin-right: 30px;
 
-    a {
+    a { // TODO: what are your global anchor styles, these are great for overriding it, but make global whatever is shared throughout the page
       text-decoration: none;
 
       &:link {
@@ -39,7 +39,7 @@ nav {
     }
   }
 // ****buttons****
-  .pink-button {
+  .pink-button { // TODO: where are the global button styles? Pink should only override the color/background-color
     background-color: #E8008A;
   }
 }
