@@ -21,27 +21,49 @@ nav {
   li {
     display: inline-block;
     margin-right: 30px;
+  }
+}
 
-    a { // TODO: what are your global anchor styles, these are great for overriding it, but make global whatever is shared throughout the page
-      text-decoration: none;
+  a {
+    text-decoration: none;
 
-      &:link {
-        color: #FFFFFF;
-      }
+    &:link {
+      color: #FFFFFF;
+    }
 
-      &:visited {
-        color: #FFFFFF;
-      }
+    &:visited {
+      color: #FFFFFF;
+    }
 
-      &:hover {
-        color: rgba(255, 255, 255, 0.70);
-      }
+    &:hover {
+      color: rgba(255, 255, 255, 0.70);
     }
   }
+
 // ****buttons****
-  .pink-button { // TODO: where are the global button styles? Pink should only override the color/background-color
-    background-color: #E8008A;
-  }
+button {
+  font-family: SourceSansPro-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 8px 22px;
+}
+
+.humble-button {  //not the main button, but the second main one
+  border: none;
+  color: rgba(255, 255, 255, 0.33);
+}
+
+.round-button {
+  border-radius: 100px;
+}
+
+.pink-button {
+  background-color: #E8008A;
+  border: none;
 }
 
 // ****landing page****

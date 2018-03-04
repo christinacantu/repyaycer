@@ -63,16 +63,36 @@ nav {
   nav li {
     display: inline-block;
     margin-right: 30px; }
-    nav li a {
-      text-decoration: none; }
-      nav li a:link {
-        color: #FFFFFF; }
-      nav li a:visited {
-        color: #FFFFFF; }
-      nav li a:hover {
-        color: rgba(255, 255, 255, 0.7); }
-  nav .pink-button {
-    background-color: #E8008A; }
+
+a {
+  text-decoration: none; }
+  a:link {
+    color: #FFFFFF; }
+  a:visited {
+    color: #FFFFFF; }
+  a:hover {
+    color: rgba(255, 255, 255, 0.7); }
+
+button {
+  font-family: SourceSansPro-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 8px 22px; }
+
+.humble-button {
+  border: none;
+  color: rgba(255, 255, 255, 0.33); }
+
+.round-button {
+  border-radius: 100px; }
+
+.pink-button {
+  background-color: #E8008A;
+  border: none; }
 
 .hero {
   display: flex;
