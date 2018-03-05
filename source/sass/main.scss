@@ -8,21 +8,25 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1132px;
-  margin: 0 auto;
+  width: 100%;  //set width to 100% to
+  max-width: 1132px;  //don't want to let the container get any larger than 1132, otherwise it'll look ridiculous
+  margin: 0 auto;  //center to keep from sticking to the left side of the screen
 }
 
 // ****navigation****
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px; // needs to be the correct amount
-  background-color: #473BB1;
+  padding: 30px 40px;
+  background-color: #473BB1;  //added background-color on nav rather than body because nav is static, but same as hero
 
   li {
     display: inline-block;
-    margin-right: 30px;  // last-child needs margin-right removed
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
 }
 
@@ -84,7 +88,6 @@ button {
     max-width: 495px;  //always a max, almost never a width because responsive
     padding-bottom: 55px;
     font-family: SourceSansPro-Light;
-    font-weight: normal;
     font-size: 3.375em;  //54px
     line-height: 1.185em; //64px
     border-bottom: 0.50px solid rgba(255, 255, 255, 0.10);
@@ -97,7 +100,7 @@ button {
   .social-media {
     align-self: flex-end;
 
-    .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {
+    .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {  //had to be more specific in order for the opacity to come through
       fill: rgba(255, 255, 255, 0.40);
     }
   }
