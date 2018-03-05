@@ -47,19 +47,21 @@ a {
   box-sizing: border-box; }
 
 body {
-  background-color: #473BB1;
   font-family: SourceSansPro-Light;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0; }
 
 .container {
-  background-color: #473BB1; }
+  width: 100%;
+  max-width: 1132px;
+  margin: 0 auto; }
 
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px; }
+  padding: 30px;
+  background-color: #473BB1; }
   nav li {
     display: inline-block;
     margin-right: 30px; }
@@ -75,13 +77,13 @@ a {
 
 button {
   font-family: SourceSansPro-Regular;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #FFFFFF;
-  line-height: 24px;
+  line-height: 1.333em;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: transparent;
   border-radius: 3px;
-  padding: 8px 22px; }
+  padding: 8px 20px; }
 
 .humble-button {
   border: none;
@@ -95,18 +97,24 @@ button {
   border: none; }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
+  background-color: #473BB1;
   color: #FFFFFF; }
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; }
   .hero h1 {
     max-width: 495px;
     padding-bottom: 55px;
+    font-family: SourceSansPro-Light;
+    font-weight: normal;
     font-size: 3.375em;
     line-height: 1.185em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.1); }
   .hero .action-buttons {
     margin-top: 50px; }
   .hero .social-media {
     align-self: flex-end; }
+    .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
+      fill: rgba(255, 255, 255, 0.4); }
