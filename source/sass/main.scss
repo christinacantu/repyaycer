@@ -79,9 +79,12 @@ button {
 
   .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 100px);  //subtract height of the navigation so it's not too tall, the navigation was forcing the container down 100 px
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7.5vh;  //to create space between the social-media and bottom of the window
+
+
   }
 
   h1 {
@@ -99,6 +102,9 @@ button {
 
   .social-media {
     align-self: flex-end;
+    width: 104px;  //set a width so flex could be set, to put space between the icons, tried to set max-width, but didn't work
+    display: flex;
+    justify-content: space-between;
 
     .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {  //had to be more specific in order for the opacity to come through
       fill: rgba(255, 255, 255, 0.40);

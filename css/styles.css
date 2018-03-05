@@ -103,9 +103,10 @@ button {
   color: #FFFFFF; }
   .hero .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh; }
+    height: calc(100vh - 100px);
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7.5vh; }
   .hero h1 {
     max-width: 495px;
     padding-bottom: 55px;
@@ -116,6 +117,9 @@ button {
   .hero .action-buttons {
     margin-top: 50px; }
   .hero .social-media {
-    align-self: flex-end; }
+    align-self: flex-end;
+    width: 104px;
+    display: flex;
+    justify-content: space-between; }
     .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
       fill: rgba(255, 255, 255, 0.4); }
