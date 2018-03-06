@@ -48,9 +48,7 @@ a {
 
 body {
   font-family: SourceSansPro-Light;
-  font-size: 16px;
-  color: #FFFFFF;
-  letter-spacing: 0; }
+  font-size: 16px; }
 
 .container {
   width: 100%;
@@ -124,3 +122,23 @@ button {
     justify-content: space-between; }
     .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
       fill: rgba(255, 255, 255, 0.4); }
+
+.membership-development {
+  display: flex;
+  justify-content: space-between; }
+  .membership-development h2 {
+    width: 50%;
+    font-size: 2.500em;
+    line-height: 1.300em;
+    color: #000000; }
+  .membership-development p {
+    width: 50%;
+    font-size: 1.125em;
+    color: #666666;
+    line-height: 1.444em; }
+
+.membership-feature--collection {
+  display: flex; }
+
+.feature {
+  text-align: center; }
