@@ -109,6 +109,10 @@ button {
   }
 }
 
+.spaycer {  //section class to add padding to top and bottom, created separate class so it could be used elsewhere on the site
+  padding: 130px 0px;
+}
+
 .membership-development {
   display: flex;
   justify-content: space-between;
@@ -130,8 +134,23 @@ button {
 
 .membership-feature--collection {
   display: flex;
-}
+  margin-top: 170px;
 
-.feature {
-  text-align: center;
+  .feature {
+    text-align: center; //apply text align to parent of an svg rather than the svg itself, otherwise it won't go through
+    margin-right: 65px;
+    line-height: 1.375em;  //22px
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    .poop {
+      margin-bottom: 35px;
+    }
+
+    p {
+      max-width: 230px;
+    }
+  }
 }

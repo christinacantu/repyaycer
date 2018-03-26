@@ -123,6 +123,9 @@ button {
     .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
       fill: rgba(255, 255, 255, 0.4); }
 
+.spaycer {
+  padding: 130px 0px; }
+
 .membership-development {
   display: flex;
   justify-content: space-between; }
@@ -138,7 +141,15 @@ button {
     line-height: 1.444em; }
 
 .membership-feature--collection {
-  display: flex; }
-
-.feature {
-  text-align: center; }
+  display: flex;
+  margin-top: 170px; }
+  .membership-feature--collection .feature {
+    text-align: center;
+    margin-right: 65px;
+    line-height: 1.375em; }
+    .membership-feature--collection .feature:last-child {
+      margin-right: 0px; }
+    .membership-feature--collection .feature .poop {
+      margin-bottom: 35px; }
+    .membership-feature--collection .feature p {
+      max-width: 230px; }
