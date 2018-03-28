@@ -76,14 +76,14 @@ a {
     color: rgba(255, 255, 255, 0.7); }
 
 button {
+  padding: 8px 20px;
   font-family: SourceSansPro-Regular;
   font-size: 1.125em;
   color: #FFFFFF;
   line-height: 1.333em;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background-color: transparent;
   border-radius: 3px;
-  padding: 8px 20px;
+  background-color: transparent;
   cursor: pointer; }
 
 .humble-button {
@@ -116,10 +116,10 @@ button {
   .hero .action-buttons {
     margin-top: 50px; }
   .hero .social-media {
-    align-self: flex-end;
-    width: 104px;
     display: flex;
-    justify-content: space-between; }
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 104px; }
     .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
       fill: rgba(255, 255, 255, 0.4); }
 
@@ -144,8 +144,8 @@ button {
   display: flex;
   margin-top: 170px; }
   .membership-feature--collection .feature {
-    text-align: center;
     margin-right: 65px;
+    text-align: center;
     line-height: 1.375em; }
     .membership-feature--collection .feature:last-child {
       margin-right: 0px; }
@@ -155,8 +155,10 @@ button {
       max-width: 230px; }
 
 .business-kit {
-  background: url(../images/byissiness-kit.jpg) no-repeat left top;
-  height: 100vh; }
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url(../images/byissiness-kit.jpg) no-repeat left top; }
   .business-kit .order {
     display: inline-block;
     max-width: 455px;

@@ -157,6 +157,8 @@ button {
 }
 
 .business-kit {
+  display: flex;
+  align-items: center;
   height: 100vh;
   background: url(../images/byissiness-kit.jpg) no-repeat left top;
 
