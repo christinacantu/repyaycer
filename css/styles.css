@@ -153,3 +153,28 @@ button {
       margin-bottom: 35px; }
     .membership-feature--collection .feature p {
       max-width: 230px; }
+
+.business-kit {
+  background: url(../images/byissiness-kit.jpg) no-repeat left top;
+  height: 100vh; }
+  .business-kit .order {
+    display: inline-block;
+    max-width: 455px;
+    margin: 178px 0px 148px 178px;
+    padding: 100px 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF; }
+    .business-kit .order h2 {
+      margin-bottom: 15px;
+      font-size: 2.500em;
+      color: #000000;
+      line-height: 1.300em; }
+    .business-kit .order p {
+      margin-bottom: 40px;
+      font-family: SourceSansPro-Regular;
+      font-size: 1.125em;
+      color: #666666;
+      line-height: 1.444em; }
+    .business-kit .order button {
+      padding: 12px 35px; }

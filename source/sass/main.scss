@@ -46,14 +46,14 @@ nav {
 
 // ****buttons****
 button {
+  padding: 8px 20px;
   font-family: SourceSansPro-Regular;
   font-size: 1.125em;  //18px
   color: #FFFFFF;
   line-height: 1.333em;  //24px
   border: 1px solid rgba(255, 255, 255, 0.20);
-  background-color: transparent;
   border-radius: 3px;
-  padding: 8px 20px;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -98,10 +98,11 @@ button {
   }
 
   .social-media {
-    align-self: flex-end;
-    width: 104px;  //set a width so flex could be set, to put space between the icons, tried to set max-width, but didn't work
     display: flex;
+    align-self: flex-end;
     justify-content: space-between;
+    width: 104px;  //set a width so flex could be set, to put space between the icons, tried to set max-width, but didn't work
+
 
     .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {  //had to be more specific in order for the opacity to come through
       fill: rgba(255, 255, 255, 0.40);
@@ -137,8 +138,8 @@ button {
   margin-top: 170px;
 
   .feature {
-    text-align: center; //apply text align to parent of an svg rather than the svg itself, otherwise it won't go through
     margin-right: 65px;
+    text-align: center; //apply text align to parent of an svg rather than the svg itself, otherwise it won't go through
     line-height: 1.375em;  //22px
 
     &:last-child {
@@ -151,6 +152,40 @@ button {
 
     p {
       max-width: 230px;
+    }
+  }
+}
+
+.business-kit {
+  height: 100vh;
+  background: url(../images/byissiness-kit.jpg) no-repeat left top;
+
+  .order {
+    display: inline-block;
+    max-width: 455px;
+    margin: 178px 0px 148px 178px;
+    padding: 100px 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 2.500em;  //40px
+      color: #000000;
+      line-height: 1.300em;  //52px
+    }
+
+    p {
+      margin-bottom: 40px;
+      font-family: SourceSansPro-Regular;
+      font-size: 1.125em;  //18px;
+      color: #666666;
+      line-height: 1.444em;  //26px
+    }
+
+    button {
+      padding: 12px 35px;
     }
   }
 }
