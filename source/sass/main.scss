@@ -71,6 +71,17 @@ button {
   border: none;
 }
 
+.button-icon-right {
+  padding-right: 35px;
+}
+
+.button-arrow-right {
+  border: 1px solid #DDDDDD;
+  background: transparent url("../images/aiyow.svg") no-repeat 90% center;
+  background-size: 10.57px 18px;
+  color: #666666;
+}
+
 // ****landing page****
 .hero {
   background-color: #473BB1;
@@ -188,6 +199,38 @@ button {
 
     button {
       padding: 12px 35px;
+    }
+  }
+}
+
+.brand-collection {
+  // height: 100vh;  //removed because made things look awkward
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #DDDDDD;
+
+  h2 {
+    font-size: 2.500em;  //40px
+    color: #000000;
+    line-height: 1.300em;  //52px
+  }
+
+  .brand-container {
+    display: flex;
+
+    .brand {
+      width: 33.33%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding: 0px 5%;
+
+      p {
+        font-family: SourceSansPro-Regular;
+        font-size: 1.125em;  //18px
+        color: #666666;
+        line-height: 1.444em;  //26px
+      }
     }
   }
 }

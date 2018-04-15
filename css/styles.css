@@ -97,6 +97,15 @@ button {
   background-color: #E8008A;
   border: none; }
 
+.button-icon-right {
+  padding-right: 35px; }
+
+.button-arrow-right {
+  border: 1px solid #DDDDDD;
+  background: transparent url("../images/aiyow.svg") no-repeat 90% center;
+  background-size: 10.57px 18px;
+  color: #666666; }
+
 .hero {
   background-color: #473BB1;
   color: #FFFFFF; }
@@ -180,3 +189,25 @@ button {
       line-height: 1.444em; }
     .business-kit .order button {
       padding: 12px 35px; }
+
+.brand-collection {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #DDDDDD; }
+  .brand-collection h2 {
+    font-size: 2.500em;
+    color: #000000;
+    line-height: 1.300em; }
+  .brand-collection .brand-container {
+    display: flex; }
+    .brand-collection .brand-container .brand {
+      width: 33.33%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding: 0px 5%; }
+      .brand-collection .brand-container .brand p {
+        font-family: SourceSansPro-Regular;
+        font-size: 1.125em;
+        color: #666666;
+        line-height: 1.444em; }
