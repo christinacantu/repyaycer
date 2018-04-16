@@ -211,3 +211,16 @@ button {
         font-size: 1.125em;
         color: #666666;
         line-height: 1.444em; }
+
+.contact-us {
+  display: flex;
+  height: 100vh;
+  background: url("../images/mayp.jpg") no-repeat center right; }
+  .contact-us p {
+    line-height: 1.500em; }
+  .contact-us .contact-us--description {
+    max-width: 225px; }
+    .contact-us .contact-us--description h2 {
+      font-size: 2.500em;
+      line-height: 1.300em;
+      color: #000000; }
