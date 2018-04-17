@@ -107,17 +107,20 @@ button {
   .action-buttons {
     margin-top: 50px;
   }
+}
 
-  .social-media {
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-between;
-    width: 104px;  //set a width so flex could be set, to put space between the icons, tried to set max-width, but didn't work
+.social-media {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 104px;  //set a width so flex could be set, to put space between the icons, tried to set max-width, but didn't work
 
+  .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {  //had to be more specific in order for the opacity to come through
+    fill: rgba(255, 255, 255, 0.40);
+  }
 
-    .faycebook-wyte g, .tweeyter-wyte g, .dreybull-wyte g {  //had to be more specific in order for the opacity to come through
-      fill: rgba(255, 255, 255, 0.40);
-    }
+  .faycebook-dark g, .tweeyter-dark g, .dreybull-dark g {  //had to be more specific in order for the opacity to come through
+    fill: rgba(0, 0, 0, 0.40);
   }
 }
 
@@ -236,21 +239,43 @@ button {
 }
 
 .contact-us {
+  height: 70vh;
+  margin-bottom: 100px;
+  background: url('../images/mayp.jpg') no-repeat bottom right;
   display: flex;
-  height: 100vh;
-  background: url('../images/mayp.jpg') no-repeat center right;
+  flex-direction: column;
+  justify-content: space-between;
 
   p {
+    max-width: 224px;
     line-height: 1.500em;  //24px
+    color: #666666;
   }
 
-  .contact-us--description {
-    max-width: 225px;
+  .contact-us--social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 90px;
 
     h2 {
       font-size: 2.500em;  //40px
       line-height: 1.300em;  //52px
       color: #000000;
+    }
+
+    .social-media--contact {
+      align-self: center;
+      justify-content: space-between;
+    }
+  }
+
+  .contact-us--description {
+    display: flex;
+    max-width: 600px;
+
+    div {
+      width: 50%;
     }
   }
 }

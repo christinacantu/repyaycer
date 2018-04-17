@@ -124,13 +124,16 @@ button {
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.1); }
   .hero .action-buttons {
     margin-top: 50px; }
-  .hero .social-media {
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-between;
-    width: 104px; }
-    .hero .social-media .faycebook-wyte g, .hero .social-media .tweeyter-wyte g, .hero .social-media .dreybull-wyte g {
-      fill: rgba(255, 255, 255, 0.4); }
+
+.social-media {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 104px; }
+  .social-media .faycebook-wyte g, .social-media .tweeyter-wyte g, .social-media .dreybull-wyte g {
+    fill: rgba(255, 255, 255, 0.4); }
+  .social-media .faycebook-dark g, .social-media .tweeyter-dark g, .social-media .dreybull-dark g {
+    fill: rgba(0, 0, 0, 0.4); }
 
 .spaycer {
   padding: 130px 0px; }
@@ -213,14 +216,30 @@ button {
         line-height: 1.444em; }
 
 .contact-us {
+  height: 70vh;
+  margin-bottom: 100px;
+  background: url("../images/mayp.jpg") no-repeat bottom right;
   display: flex;
-  height: 100vh;
-  background: url("../images/mayp.jpg") no-repeat center right; }
+  flex-direction: column;
+  justify-content: space-between; }
   .contact-us p {
-    line-height: 1.500em; }
-  .contact-us .contact-us--description {
-    max-width: 225px; }
-    .contact-us .contact-us--description h2 {
+    max-width: 224px;
+    line-height: 1.500em;
+    color: #666666; }
+  .contact-us .contact-us--social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 90px; }
+    .contact-us .contact-us--social h2 {
       font-size: 2.500em;
       line-height: 1.300em;
       color: #000000; }
+    .contact-us .contact-us--social .social-media--contact {
+      align-self: center;
+      justify-content: space-between; }
+  .contact-us .contact-us--description {
+    display: flex;
+    max-width: 600px; }
+    .contact-us .contact-us--description div {
+      width: 50%; }
